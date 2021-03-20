@@ -20,7 +20,7 @@ class PointsController {
     /* const serializedPoints = points.map((item) => {
       return {
         ...points,
-        image_url: `http://192.168.0.13:3333/uploads/${item.image}`,
+        image_url: `http://192.168.1.70:3333/uploads/${item.image}`,
       }
     }) */
 
@@ -64,7 +64,7 @@ class PointsController {
       const trx = await knex.transaction()
   
       const point = {
-        image: 'https://images.unsplash.com/photo-1552353289-97f99c442b3e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+        image: 'https://images.unsplash.com/photo-1603807435612-a7913d23e774?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60',
         name,
         email,
         whatsapp,
