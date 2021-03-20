@@ -5,7 +5,7 @@ import { FiArrowLeft } from "react-icons/fi"
 import { MapContainer, Marker, TileLayer, useMapEvent } from "react-leaflet"
 import { Link, useHistory } from "react-router-dom"
 import logo from "../../assets/logo.svg"
-// import Dropzone from "../../components/Dropzone"
+import Dropzone from "../../components/Dropzone"
 import api from "../../services/api"
 import "./styles.css"
 
@@ -140,7 +140,8 @@ const CreatePoint = () => {
       data.append("image", selectedFile)
     }
 
-    // Old away to send data for the server, now I need do send a Multipart Data not a json
+    // Before we was using this way to send data to the API. This way send a json. But for send
+    // files we need to use the "multipart/form-data"
     // const data = {
     //   name,
     //   email,
@@ -152,9 +153,10 @@ const CreatePoint = () => {
     //   items,
     // }
 
-    console.log(data)
+    // console.log(data)
 
-    // await api.post("/points", data)
+    await api.post("/points", data)
+    alert('Ponto de coleta cadastrado com sucesso!')
 
     history.push("/")
   }
@@ -174,7 +176,7 @@ const CreatePoint = () => {
           Cadastro do <br /> ponto de coleta
         </h1>
 
-        {/* <Dropzone onFileUploaded={setSelectedFile} /> */}
+        <Dropzone onFileUploaded={setSelectedFile} />
 
         <fieldset>
           <legend>
