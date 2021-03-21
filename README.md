@@ -48,7 +48,7 @@
  <a href="#-layout">Layout</a> • 
  <a href="#-etapas-do-projeto">Etapas do projeto</a> • 
  <a href="#-tecnologias-utilizadas">Tecnologias</a> • 
- <a href="#-como-executar-o-projeto">Como baixar o projeto</a> • 
+ <a href="#-como-executar-o-projeto">Como executar o projeto</a> • 
  <a href="#-licença">Licença</a> • 
  <a href="#-desenvolvedor">Desenvolvedor</a>
 </p>
