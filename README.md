@@ -24,17 +24,17 @@
         alt="Typescript" 
         src="https://img.shields.io/badge/|-TypeScript-%23007ACC?style=flat-square&logo=TYPESCRIPT">
   </a>
-  <a href="https://github.com/abner-starkasty/Proffy-Typescript/tree/master/server">
+  <a href="https://github.com/abner-starkasty/Ecoleta-TS/tree/main/server">
     <img 
         alt="server Node.js" 
         src="https://img.shields.io/badge/Server-Node.js-%23339933?style=flat-square&logo=node.js">
   </a>
-  <a href="https://github.com/abner-starkasty/Proffy-Typescript/tree/master/web">
+  <a href="https://github.com/abner-starkasty/Ecoleta-TS/tree/main/web">
     <img 
         alt="web React" 
         src="https://img.shields.io/badge/Web-React-%23007ACC?style=flat-square&logo=REACT">
   </a>
-  <a href="https://github.com/abner-starkasty/Proffy-Typescript/tree/master/mobile">
+  <a href="https://github.com/abner-starkasty/Ecoleta-TS/tree/main/mobile">
     <img 
         alt="mobile React Native" 
         src="https://img.shields.io/badge/Mobile-React%20Native-%235849BE?style=flat-square&logo=REACT">
